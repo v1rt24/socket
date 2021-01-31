@@ -1,0 +1,39 @@
+2021-01-29 17:18:01 pid:1 Exception: You can't send(object) to client, you need to convert it to a string.  in D:\xampp\htdocs\suffrage\vendor\workerman\workerman\Protocols\Websocket.php:236
+Stack trace:
+#0 D:\xampp\htdocs\suffrage\vendor\workerman\workerman\Connection\TcpConnection.php(321): Workerman\Protocols\Websocket::encode(Object(stdClass), Object(Workerman\Connection\TcpConnection))
+#1 D:\xampp\htdocs\suffrage\server\server.php(24): Workerman\Connection\TcpConnection->send(Object(stdClass))
+#2 D:\xampp\htdocs\suffrage\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"madam1":{"cou...')
+#3 D:\xampp\htdocs\suffrage\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#4 D:\xampp\htdocs\suffrage\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#5 D:\xampp\htdocs\suffrage\vendor\workerman\workerman\Worker.php(1418): Workerman\Worker->run()
+#6 D:\xampp\htdocs\suffrage\vendor\workerman\workerman\Worker.php(1361): Workerman\Worker::forkWorkersForWindows()
+#7 D:\xampp\htdocs\suffrage\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#8 D:\xampp\htdocs\suffrage\server\server.php(34): Workerman\Worker::runAll()
+#9 {main}
+2021-01-29 17:18:01 pid:1 Worker process terminated
+2021-01-29 17:18:16 pid:1 Exception: You can't send(object) to client, you need to convert it to a string.  in D:\xampp\htdocs\suffrage\vendor\workerman\workerman\Protocols\Websocket.php:236
+Stack trace:
+#0 D:\xampp\htdocs\suffrage\vendor\workerman\workerman\Connection\TcpConnection.php(321): Workerman\Protocols\Websocket::encode(Object(stdClass), Object(Workerman\Connection\TcpConnection))
+#1 D:\xampp\htdocs\suffrage\server\server.php(24): Workerman\Connection\TcpConnection->send(Object(stdClass))
+#2 D:\xampp\htdocs\suffrage\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '{"madam1":{"cou...')
+#3 D:\xampp\htdocs\suffrage\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #20)
+#4 D:\xampp\htdocs\suffrage\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#5 D:\xampp\htdocs\suffrage\vendor\workerman\workerman\Worker.php(1418): Workerman\Worker->run()
+#6 D:\xampp\htdocs\suffrage\vendor\workerman\workerman\Worker.php(1361): Workerman\Worker::forkWorkersForWindows()
+#7 D:\xampp\htdocs\suffrage\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#8 D:\xampp\htdocs\suffrage\server\server.php(34): Workerman\Worker::runAll()
+#9 {main}
+2021-01-29 17:18:16 pid:1 Worker process terminated
+2021-01-29 17:19:03 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in D:\xampp\htdocs\suffrage\vendor\workerman\workerman\Protocols\Websocket.php:236
+Stack trace:
+#0 D:\xampp\htdocs\suffrage\vendor\workerman\workerman\Connection\TcpConnection.php(321): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 D:\xampp\htdocs\suffrage\server\server.php(24): Workerman\Connection\TcpConnection->send(NULL)
+#2 D:\xampp\htdocs\suffrage\vendor\workerman\workerman\Connection\TcpConnection.php(637): {closure}(Object(Workerman\Connection\TcpConnection), '[object Object]')
+#3 D:\xampp\htdocs\suffrage\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #20)
+#4 D:\xampp\htdocs\suffrage\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#5 D:\xampp\htdocs\suffrage\vendor\workerman\workerman\Worker.php(1418): Workerman\Worker->run()
+#6 D:\xampp\htdocs\suffrage\vendor\workerman\workerman\Worker.php(1361): Workerman\Worker::forkWorkersForWindows()
+#7 D:\xampp\htdocs\suffrage\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#8 D:\xampp\htdocs\suffrage\server\server.php(34): Workerman\Worker::runAll()
+#9 {main}
+2021-01-29 17:19:03 pid:1 Worker process terminated

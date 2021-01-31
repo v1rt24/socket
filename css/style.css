@@ -1,0 +1,385 @@
+@font-face {
+    font-family: 'Rewinder_Bold';
+    src: url('../fonts/a_Rewinder_Bold.ttf');
+}
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('../fonts/RobotoRegular.ttf');
+}
+
+body {
+    position: relative;
+    font-family: RobotoRegular, sans-serif;
+    font-size: 16px;
+    background: white url("../images/para.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    line-height: 1.5;
+    min-height: 100vh;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.zag {
+    text-align: center;
+    font-size: 40px;
+    padding: 60px 20px 60px 20px;
+    color: white;
+    font-weight: 900;
+}
+
+.direction-reveal {
+    text-align: center;
+}
+
+.direction-reveal__card {
+    border: 2px solid #ccc;
+    padding: 2px;
+    border-radius: 40px 15px;
+    margin: 0 30px 10px 30px;
+}
+
+.direction-reveal__card img {
+    display: block;
+    border-radius: 37px 12px;
+}
+
+.direction-reveal__overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.direction-reveal__overlay h3 {
+    font-size: 20px;
+    font-family: Rewinder_Bold, sans-serif;
+    letter-spacing: 1.3px;
+    margin-bottom: 10px;
+}
+
+.direction-reveal__overlay p {
+    font-size: 14px;
+}
+
+.wrapper-direction-reveal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapperCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.nameGirl {
+    color: #1da1f2;
+    margin-bottom: 10px;
+}
+
+.cardButton {
+    width: 100%;
+}
+
+.cardButton span {
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: block;
+}
+
+.cardButton span.count {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.proizvodstvo {
+    padding: 5% 0 10% 0;
+}
+
+.blockHead {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+
+.line {
+    position: relative;
+    width: 50%;
+    height: 1px;
+    background-color: white;
+    margin: 30px auto;
+}
+
+.line::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transform: translate(-19px, -9px);
+}
+
+.line::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transform: translate(19px, -9px);
+}
+
+/* ====================== */
+.fancyBox {
+    width: 400px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: OpenSansRegular, sans-serif;
+    padding: 10px;
+}
+
+.content_fancyBox {
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    overflow: hidden;
+    padding: 20px 0 35px 0px;
+}
+
+.fancyBox h2 {
+    position: relative;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 20px;
+    margin-bottom: 35px;
+}
+
+.fancyBox h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+    background-image: url("../images/menu-line-58.png");
+    background-position: center;
+    opacity: .3;
+}
+
+.fancyBox a {
+    max-width: 280px;
+    width: 100%;
+    height: 61px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+.podelitsyaClosed {
+    right: 43% !important;
+    top: -22px !important;
+    color: white !important;
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 50%;
+    opacity: .5;
+}
+
+.fancyBox.fancybox-content {
+    overflow: visible;
+}
+
+.line_opacity {
+    opacity: .3;
+}
+
+.contentMenu a.podelitsya {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 47px;
+}
+
+.contentMenu a.podelitsya:hover {
+    color: white;
+}
+
+.headerSoc {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.headerSoc li {
+    transition: .5s;
+}
+
+.headerSoc li:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.follow__item {
+    width: 80px;
+    height: 80px;
+    float: left;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    border: 1px solid #9a9a9a;
+    background-image: url(../images/social.png);
+    background-position: center;
+    -webkit-transition: background-position-y .4s ease;
+    transition: background-position-y .4s ease;
+    cursor: pointer;
+}
+
+.follow__item a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.follow__item_vk {
+    background-position: 1px 0;
+}
+
+.follow__item_vk:hover {
+    background-position: 1px bottom;
+}
+
+.follow__item:not(:first-child) {
+    border-left: none;
+}
+
+.follow__item_fb {
+    background-position: -79px 0;
+}
+
+.follow__item_fb:hover {
+    background-position: -79px bottom;
+}
+
+.follow__item_inst {
+    background-position: -117px 0;
+}
+
+.follow__item_inst:hover {
+    background-position: -117px bottom;
+}
+
+.follow__item_ok {
+    background-position: -317px 0;
+}
+
+.follow__item_ok:hover {
+    background-position: -317px bottom;
+}
+
+.follow__item_youtube {
+    background-position: -195px 2px;
+}
+
+.follow__item_youtube:hover {
+    background-position: -195px bottom;
+}
+/* ====================== */
+
+/* ======================= КНОПКА */
+.knopkaHover {
+    max-width: 170px;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px #07afc9 solid;
+    border-radius: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto 0 auto;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.knopkaHover:hover {
+    color: white;
+    background-color: #07afc9;
+    border: 2px #07afc9 solid;
+    animation: button-pulse 0.9s 0s ease-out 1;
+}
+
+.knopkaHover:focus {
+    outline: none;
+}
+
+@keyframes button-pulse {
+    from {
+        box-shadow: 0 0 8px 6px #07afc9, 0 0 12px 14px #07afc9;
+    }
+    to {
+        box-shadow: 0 0 10px 6px rgba(255, 51, 51, 0), 0 0 4px 35px rgba(255, 51, 51, 0);
+    }
+}
+/* ======================= /КНОПКА */
+
+@media screen and (max-width: 480px) {
+    .zag {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .zag {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c0727bd2-5c00-432b-a840-4c2551191ff4" name="ввв" url="http://ftp.f0196689.xsph.ru">
+        <fileTransfer rootFolder="/domains/f0196689.xsph.ru/public_html" host="ftp.f0196689.xsph.ru" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="2a7a3b0d-1a84-457c-be7a-45f43d02974c" name="СЕРЖИО" url="http://ftp.u0854809.cp.regruhosting.ru">
+        <fileTransfer rootFolder="/renosem.com.ru/estimate" host="ftp.u0854809.cp.regruhosting.ru" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="4635fd4b-64c6-40f7-bd7f-5a5ab970d340" name="СЕРЖИО 2" url="http://eushared06.twinservers.net">
+        <fileTransfer host="eushared06.twinservers.net" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
