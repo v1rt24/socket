@@ -1,5 +1,0 @@
-ЗДЕСЬ ИНТЕРЕСУЮТ ТОЛЬКО ФАЙЛЫ:
-
-server/server.php
-
-js/custom.js
