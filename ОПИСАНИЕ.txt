@@ -1,5 +1,5 @@
-ЗДЕСЬ ИНТЕРЕСУЮТ ТОЛЬКО ФАЙЛЫ:
 
-server/server.php
+ssh root@77.222.63.107
+acaszeagax
 
-js/custom.js
+САЙТ: http://webgolos.ru
