@@ -4,8 +4,8 @@ RewriteBase /
 ErrorDocument 404 /404/error.php
 
 #Включаем https протокол редирект
-#RewriteCond %{ENV:HTTPS} !on
-#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond %{ENV:HTTPS} !on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 
 
